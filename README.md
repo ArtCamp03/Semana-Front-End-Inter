@@ -28,10 +28,12 @@ Desenvolvimento de uma aplicaçao ultilizando o template do banco INTER, uma peq
 ### - Recursos nescessários na api :electric_plug:
 
 - Usuário
+
  [ ] Cadastrar novo usuário
  [ ] Efeturar login e retornar token de acesso
 
 - PIX
+
  [ ] Efetuar solicitação de PIX
  [ ] Receber PIX
  
