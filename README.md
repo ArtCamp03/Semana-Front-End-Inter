@@ -25,7 +25,7 @@ Desenvolvimento de uma aplicaçao ultilizando o template do banco INTER, uma peq
     @types/node -D
     nodemon -D
 
-###- Recursos nescessários na api :electric_plug:
+### - Recursos nescessários na api :electric_plug:
 
 - Usuário
  [ ] Cadastrar novo usuário
