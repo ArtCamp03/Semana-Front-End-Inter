@@ -30,11 +30,13 @@ Desenvolvimento de uma aplicaçao ultilizando o template do banco INTER, uma peq
 - Usuário
 
  [ ] Cadastrar novo usuário
+
  [ ] Efeturar login e retornar token de acesso
 
 - PIX
 
  [ ] Efetuar solicitação de PIX
+ 
  [ ] Receber PIX
  
  Regras: 
