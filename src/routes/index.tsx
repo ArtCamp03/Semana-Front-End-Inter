@@ -3,7 +3,7 @@ import {
     Routes,
     Route,
 } from "react-router-dom";
-imoprt SingIn from '../pages/SingIn';
+imoprt SingIn from '../pages/SignIn';
 import SingUp from '../pages/SingUp';
 import Dashboard from '../pages/Dashboard';
 
