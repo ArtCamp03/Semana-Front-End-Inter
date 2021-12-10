@@ -5,10 +5,8 @@ import {theme} from './styles/theme';
 import GlobalStyle from './styles/globalStyles';
 
 function App() {
-    const isDark = true;
-
     return (
-        <ThemeProvider theme={isDark? themeDark: theme}>
+        <ThemeProvider theme={theme}>
             <GlobalStyle />
             <Router />
         </ThemeProvider>
