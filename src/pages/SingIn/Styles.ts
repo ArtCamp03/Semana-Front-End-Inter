@@ -44,7 +44,14 @@ export const ButtonContainer = styled.div '
     flex-direction: Column;
 
     p{
-        
+        font-size: 0.75rem;
+        font-weight: 400; 
+        color: {({theme}) => theme.colors.secundary};
+
+        a{
+            font-size: 1rem;
+            font-weight: 700; 
+        }
     }
 '
 
