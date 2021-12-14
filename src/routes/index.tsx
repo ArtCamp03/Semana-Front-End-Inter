@@ -3,17 +3,18 @@ import {
     Routes,
     Route,
 } from "react-router-dom";
-imoprt SingIn from '../pages/SignIn';
-import SingUp from '../pages/SingUp';
+
+imoprt SignIn from '../pages/SignIn';
+import SignUp from '../pages/SingUp';
 import Dashboard from '../pages/Dashboard';
 
-export const Router - () => {
+export const Router = () => {
     return{
         <BrowserRouter>
             <Routes>
-            <Route path="/" element={<SingIn /} /> 
-            <Route path="/singup" element={<SingUp /} /> 
-            <Route path="/dashboard" element={<Dashboard /} /> 
+                <Route path="/" element={<SignIn /} /> 
+                <Route path="/singup" element={<SignUp /} /> 
+                <Route path="/dashboard" element={<Dashboard /} /> 
             </Routes>
         </BrowserRouter>
     }
