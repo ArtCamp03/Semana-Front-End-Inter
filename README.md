@@ -17,7 +17,7 @@ Desenvolvimento de uma aplicaçao ultilizando o template do banco INTER, uma peq
 - comando: npm install typescript
 - comando: npm install typeorm
 - comando: npm install pg
-- comando: npm install --save styled-components
+- comando: npm install --save styled-componets
 - comando: npm install react-router-dom
 
     Express

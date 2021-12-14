@@ -5,20 +5,16 @@ import { prependOnceListener } from 'process';
 import styled from 'styled-components';
 import { Column, useContainer } from 'typeorm';
 
-export const Wrapper = styled.main '
+export const Wrapper = styled.main `
     width: 100%;
     height: 100vh;
-
     position: relative;
-
     display: flex;
     align-itens: center;
     justify-content: center;
+`
 
-    
-'
-
-export const Background = styled.div<{image: any}>'
+export const Background = styled.div<{image: any}>`
     position: absolute;
     width: 100%;
     top: 0;
@@ -27,15 +23,14 @@ export const Background = styled.div<{image: any}>'
     background-image: url(${ ({image}) => image});
     background-size: contain ;
     z-index: 1;
-'
-
-export const InputContainer = styled.div '
+`
+export const InputContainer = styled.div `
     margin-top: 67px;
     width: 90%;
     flex: 1;
-'
+`
 
-export const ButtonContainer = styled.div '
+export const ButtonContainer = styled.div ` 
     width: 90%;    
     margin-top: 20px;
     
@@ -53,5 +48,5 @@ export const ButtonContainer = styled.div '
             font-weight: 700; 
         }
     }
-'
+`
 

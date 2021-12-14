@@ -1,30 +1,30 @@
 Arguments: 
-  /Users/pablohenrique/.nvm/versions/node/v16.13.0/bin/node /usr/local/bin/yarn add @types/nodejs-base64-converter -D
+  C:\Program Files\nodejs\node.exe C:\Users\artur\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @types/styled-componets -D
 
 PATH: 
-  /Users/pablohenrique/.rvm/gems/ruby-2.7.0/bin:/Users/pablohenrique/.rvm/gems/ruby-2.7.0@global/bin:/Users/pablohenrique/.rvm/rubies/ruby-2.7.0/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/Users/pablohenrique/.serverless/bin:/Users/pablohenrique/.amplify/bin:/Users/pablohenrique/.rbenv/shims:/Users/pablohenrique/.zinit/polaris/bin:/Users/pablohenrique/.nvm/versions/node/v16.13.0/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/pablohenrique/Library/Android/sdk/emulator:/Users/pablohenrique/Library/Android/sdk/tools:/Users/pablohenrique/Library/Android/sdk/tools/bin:/Users/pablohenrique/Library/Android/sdk/platform-tools:/Users/pablohenrique/development/flutter/bin:/Users/pablohenrique/.rvm/bin
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;;C:\Program Files\Kathara;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\artur\anaconda3;C:\Users\artur\anaconda3\Library\mingw-w64\bin;C:\Users\artur\anaconda3\Library\usr\bin;C:\Users\artur\anaconda3\Library\bin;C:\Users\artur\anaconda3\Scripts;C:\Users\artur\AppData\Local\Microsoft\WindowsApps;C:\Users\artur\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\artur\AppData\Local\GitHubDesktop\bin;C:\Users\artur\AppData\Roaming\npm;C:\Maven\apache-maven-3.8.2\bin;C:\Program Files\Java\gradle-6.9.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Program Files (x86)\GnuWin32\bin;
 
 Yarn version: 
   1.22.17
 
 Node version: 
-  16.13.0
+  14.15.4
 
 Platform: 
-  darwin x64
+  win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2fnodejs-base64-converter: Not found
-      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:67029:18)
-      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
-      at Request.emit (node:events:390:28)
-      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
-      at Request.emit (node:events:390:28)
-      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
-      at Object.onceWrapper (node:events:509:28)
-      at IncomingMessage.emit (node:events:402:35)
-      at endReadableNT (node:internal/streams/readable:1343:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+  Error: https://registry.yarnpkg.com/@types%2fstyled-componets: Not found
+      at Request.params.callback [as _callback] (C:\Users\artur\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\artur\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\artur\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\artur\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
 
 npm manifest: 
   {
@@ -46,17 +46,23 @@ npm manifest:
       "express": "^4.17.1",
       "express-async-errors": "^3.1.1",
       "express-jwt": "^6.1.0",
+      "js-base64": "^3.7.2",
       "jsonwebtoken": "^8.5.1",
       "nodemon": "^2.0.15",
+      "pg": "^8.7.1",
       "postgre": "^0.1.8",
+      "react-router-dom": "^6.0.2",
       "reflect-metadata": "^0.1.13",
+      "styled-components": "^5.3.3",
       "typeorm": "^0.2.41"
     },
     "devDependencies": {
       "@types/crypto-js": "^4.0.2",
       "@types/express": "^4.17.13",
+      "@types/js-base64": "^3.3.1",
       "@types/jsonwebtoken": "^8.5.6",
       "@types/node": "^16.11.9",
+      "@types/styled-components": "^5.1.17",
       "@typescript-eslint/eslint-plugin": "^5.4.0",
       "@typescript-eslint/parser": "^5.4.0",
       "eslint-config-airbnb-base": "^15.0.0",
@@ -220,6 +226,13 @@ Lockfile:
       "@types/express-serve-static-core" "^4.17.18"
       "@types/qs" "*"
       "@types/serve-static" "*"
+  
+  "@types/js-base64@^3.3.1":
+    version "3.3.1"
+    resolved "https://registry.yarnpkg.com/@types/js-base64/-/js-base64-3.3.1.tgz#36c2d6dc126277ea28a4d0599d0cafbf547b51e6"
+    integrity sha512-Zw33oQNAvDdAN9b0IE5stH0y2MylYvtU7VVTKEJPxhyM2q57CVaNJhtJW258ah24NRtaiA23tptUmVn3dmTKpw==
+    dependencies:
+      js-base64 "*"
   
   "@types/json-schema@^7.0.9":
     version "7.0.9"
@@ -1704,6 +1717,11 @@ Lockfile:
     version "2.0.0"
     resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
     integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
+  
+  js-base64@*, js-base64@^3.7.2:
+    version "3.7.2"
+    resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.7.2.tgz#816d11d81a8aff241603d19ce5761e13e41d7745"
+    integrity sha512-NnRs6dsyqUXejqk/yv2aiXlAvOs56sLkX6nUdeaNezI5LFFLlsZjOThmwnrcwh5ZZRwZlCMnVAY3CvhIhoVEKQ==
   
   js-yaml@^4.0.0, js-yaml@^4.1.0:
     version "4.1.0"
