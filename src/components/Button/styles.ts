@@ -12,6 +12,7 @@ export const ButtonContainer = styled.button `
     margin-bottom: 20px;
     display:flex; 
     justify-content: center;
+    align-itens: center;
     z-index: 5000;
 
     &:hover{
