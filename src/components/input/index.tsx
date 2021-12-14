@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import {InputHTMLAttributes} from 'react';
+import { InputContainer } from './styles';
 
-const Input = () => {
+const Input = (props: InputHTMLAttributes<HTMLElement) => {
 
     return (
-        <div>
-            
-        </div>
+        <InputContainer>
+            <input {...props} />
+        </InputContainer>
     )
 }
 
